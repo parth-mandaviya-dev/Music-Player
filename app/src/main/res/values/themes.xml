@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ParthMusicPlayer" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<!--        <item name="floatingActionButtonStyle">@style/FabShapeStyle</item>-->
+    </style>
+
+    <style name="Theme.ParthMusicPlayer" parent="Base.Theme.ParthMusicPlayer" />
+
+    <style name="FabShapeStyle" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSizeBottomLeft">50%</item>
+        <item name="cornerSizeBottomRight">50%</item>
+        <item name="cornerSizeTopLeft">50%</item>
+        <item name="cornerSizeTopRight">50%</item>
+    </style>
+</resources>
